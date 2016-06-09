@@ -6,7 +6,7 @@ class Testapp(unittest.TestCase):
  
     def test_entry(self):
         rv = self.app.get('/')
-        self.assertEqual(rv.data,"Hello, World!")
+        self.assertEqual(rv.data,"Hello, Belgie!")
  
 if __name__ == '__main__':
     unittest.main()
